@@ -1,0 +1,50 @@
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+
+  
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+}
+  
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .bg-gradient-text {
+    background: linear-gradient(270deg, #3b82f6, #8b5cf6, #ec4899, #eab308);
+    background-size: 300% 300%;
+    animation: gradient 3s ease-in-out infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  .bg-gradient-text:hover {
+    background: linear-gradient(270deg, #3b82f6, #8b5cf6, #ec4899, #eab308);
+    background-size: 300% 300%;
+    animation: gradient 10s ease-in-out infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
+  /* styles.css */
+.custom-button {
+    background-color: #4CAF50;
+    color: rgb(190, 5, 5);
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-button:hover {
+    background-color: #45a049;
+}
